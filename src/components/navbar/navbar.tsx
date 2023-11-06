@@ -31,7 +31,7 @@ const Navbar=()=>{
 
                     <Link
                         className="flex"
-                        href={'/home'}>
+                        href={'/host'}>
                         <IcGroup color="white"/>
                         <span className='ml-4 text-xl '>Hợp tác với chúng tôi</span>
                     </Link>
