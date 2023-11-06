@@ -6,10 +6,7 @@ import imgHaNoi from '@/assets/images/ha-noi.png';
 import imgHA from '@/assets/images/hoi-an.png';
 import imgHue from '@/assets/images/hue.png';
 import CardItem from "../carditem/carditem";
-// interface cityType{
-//     img: string,
-//     name:string
-// };
+
 const city = [
     {
         img: imgDana,

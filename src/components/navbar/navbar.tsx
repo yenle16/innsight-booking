@@ -9,7 +9,7 @@ import IcPencil from "../icons/ic-pencil";
 
 const Navbar=()=>{
     return (
-        <div className="hidden lg:flex py-6 bg-blue-900">
+        <div className="hidden lg:flex py-6 bg-indigo-950">
             <Link href="/" className="flex-shrink-0 flex items-center justify-center px-20 lg:pl-24 xl:pl-32 lg:pr-16 xl:pr-20 ">
                 <span className="text-3xl font-bold">InnSight</span>
             </Link>
