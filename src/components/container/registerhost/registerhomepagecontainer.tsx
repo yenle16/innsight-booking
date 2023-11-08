@@ -28,7 +28,7 @@ const RegisterHomeContainer: React.FC = () => {
           <div className='hidden xl:flex flex-1 flex-col 2xl:text-left xl:mr-20'>
             <h1 className='font-bold text-5xl leading-snug'>Đăng ký nơi lưu trú của mình trên InnSight</h1>
             <p className='text-2xl '>Dù kinh doanh chỗ nghỉ là công việc tay trái hay toàn thời gian, đừng quên đăng kí
-              nhà nghỉ dưỡng trên Booking.com để tiếp cận du khách khắp thế giới</p>
+              nhà nghỉ dưỡng trên InnSight để tiếp cận du khách khắp thế giới</p>
           </div>
           <div className={`flex-none items-center bg-white rounded-lg p-5 px-8`} >
             <p className='text-xl font-semibold py-5 text-black'>Tăng thu nhập với lượng đơn đặt đều đặn</p>
@@ -54,7 +54,7 @@ const RegisterHomeContainer: React.FC = () => {
             </div>
 
             <button className={'border-none mt-8 py-2 px-4 rounded drop-shadow-md inline-flex items-center justify-center w-full  bg-blue-600 hover:opacity-80'}>
-              <Link href="">
+              <Link href="/host/register">
                 <span className='font-semibold text-xl text-white py-2 '>Đăng ký ngay</span>
               </Link>
             </button>
@@ -63,7 +63,7 @@ const RegisterHomeContainer: React.FC = () => {
 
         </div>
       </div>
-      <div className={'justify-between hidden xl:block bg-gray-100 border-none h-5/6 sm:w-full sm:p-3.5 md:p-8 lg:px-48'}>
+      <div className={'justify-between hidden xl:block bg-gray-100 border-none  sm:w-full sm:p-3.5 md:p-8 lg:px-48 xl:py-20 md:py-14 sm:py-10'}>
         <h1 className='text-4xl font-bold text-black '>Tiếp cận nguồn khách hàng toàn cầu</h1>
         <div className={`flex flex-col lg:flex-row justify-between  `}>
           <div className={`flex flex-1 flex-col pr-10 `}>
@@ -122,7 +122,7 @@ const RegisterHomeContainer: React.FC = () => {
                  <div className='flex justify-between space-x-48'>
                     {feedback.map((feedbackItem, index) => (
                                 <div key={index}
-                                    className={`rounded-lg shadow-md  }`}>
+                                    className={`rounded-lg shadow-md  p-4`}>
                                     <div className='flex items-center pb-5'>
                                         {/* <IcFaceSmile/> */}
                                         <h3 className='text-3xl font-bold pl-5 text-black'>{feedbackItem.score} / 10</h3>

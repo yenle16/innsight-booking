@@ -71,7 +71,7 @@ const HomeContainer = () => {
                     <div className={'text-black text-2xl font-semibold pb-3'}>Các ưu đãi đặc biệt cho bạn</div>
                     <div className={'flex sm:flex-col lg:flex-row justify-between'}>
                         <div className={' flex-1 sm:w-full lg:w-8/12 rounded-md pr-6'}>
-                            <Image src={img} alt="Autumn background" className="rounded-lg "/>
+                            <Image src={img} alt="Autumn background" className="rounded-2xl "/>
                         </div>
                         <div className={' text-black flex flex-col text-justify sm:w-full lg:w-3/12 justify-start pl-3'}>
                             Ưu đãi giảm giá 20% cho tất cả các đặt phòng vào tháng 10. Đừng bỏ lỡ cơ hội thư giãn và thưởng thức mùa thu tại khách sạn của chúng tôi.
@@ -92,7 +92,7 @@ const HomeContainer = () => {
                                     className={` ${index < 2 ? 'col-span-6' : 'col-span-4'} py-4`}
                                 >
                                     <span className="text-black font-semibold">{cityItem.name}</span>
-                                    <Image src={cityItem.img} alt={cityItem.name} className="rounded-lg h-full pt-2 hover:opacity-80" />
+                                    <Image src={cityItem.img} alt={cityItem.name} className="rounded-2xl h-full pt-2 hover:opacity-80" />
                                 </div>
                             ))}
                         </div>
