@@ -9,14 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
     "axios": "^1.6.0",
     "next": "^14.0.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-date-range": "^1.4.0",
+    "react-dom": "^18.2.0",
+    "redux": "^4.2.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-saga": "^1.2.3",
+    "sass": "^1.69.5"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
+    "@types/react-date-range": "^1.4.8",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",

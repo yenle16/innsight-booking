@@ -5,8 +5,8 @@ import imgHCM from '@/assets/images/ho-chi-minh.png';
 import imgHaNoi from '@/assets/images/ha-noi.png';
 import imgHA from '@/assets/images/hoi-an.png';
 import imgHue from '@/assets/images/hue.png';
-import CardItem from "../carditem/carditem";
-
+// import CardItem from "../carditem/carditem";
+import Header from "@/components/header/header";
 const city = [
     {
         img: imgDana,
@@ -66,6 +66,7 @@ const getHotelInCity = (cityName:string) => {
 const HomeContainer = () => {
     return (
         <div className={'bg-white min-h-screen'}>
+            <Header />
             <div className={ 'sm:w-full sm:p-3.5 md:p-8 lg:px-48'}>
                 <div className={''}>
                     <div className={'text-black text-2xl font-semibold pb-3'}>Các ưu đãi đặc biệt cho bạn</div>
