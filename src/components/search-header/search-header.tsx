@@ -2,7 +2,6 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import Button from '../core/Button'
 import Image from "next/image";
-import styles from '@/components/search-header/search-header.module.scss';
 import imgBg from '@/assets/images/header-background.png';
 
 const SearchHeader = () => {
@@ -15,8 +14,8 @@ const SearchHeader = () => {
     return (
         <div className="w-full ">
             <div className=" mx-auto container  relative ">
-                <div className={`${styles['header-image']}`}>
-                    <Image src={imgBg} alt="" />
+                <div className={`w-full h-[450px] overflow-hidden `}>
+                    <Image src={imgBg} alt="" className='transform scale-130 w-full h-full' />
                 </div>
                 <div
                     className="     
@@ -49,7 +48,7 @@ const SearchHeader = () => {
                         </div>
 
                         <Link
-                            href={`search/${city}`}
+                            href={{ pathname: '/search', query: { city } }}
                             className={!city ? 'pointer-events-none cursor-not-allowed' : ''}
                         >
                             <div>

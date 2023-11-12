@@ -68,7 +68,7 @@ const HomeContainer = () => {
     return (
         <div className={'bg-white min-h-screen'}>
             <SearchHeader />
-            <div className={ 'sm:w-full sm:p-3.5 md:p-8 lg:py-20 lg:px-48'}>
+            <div className={ 'w-full sm:p-3.5 md:p-8 lg:py-20 lg:px-48'}>
                 <div className={''}>
                     <div className={'text-black text-2xl font-semibold pb-3'}>Các ưu đãi đặc biệt cho bạn</div>
                     <div className={'flex sm:flex-col lg:flex-row justify-between'}>
